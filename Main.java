@@ -33,7 +33,7 @@ public class Main {
         double budgetUser = 0;
 
         if (!scanner.hasNextDouble()) {
-            System.out.println("Пошел нахуй");
+            System.out.println("Некорректные данные");
             readBudgetUser(firsCakePrice, secondCakePrice);
         }
 
